@@ -1,5 +1,5 @@
 describe("A suite", () => {
-  it("contains spec with an expectation", () => {
-    expect(true).toBe(true);
+  it("lol theres no tests... this is for a hackathon!", () => {
+    expect(true).toBe(true)
   })
 })
