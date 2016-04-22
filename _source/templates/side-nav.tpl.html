@@ -1,0 +1,25 @@
+<!-- the menu side nav -->
+<md-sidenav class="side-nav md-sidenav-left md-whiteframe-2dp" md-component-id='menu' hide-gt-xs>
+  <div layout='column' layout-fill>
+    <md-content class='md-whiteframe-2dp side-nav-menu' flex>
+      <md-list>
+
+        <md-list-item ng-click='n.navigateTo(0)'><div layout='row' layout-align='space-between center' flex>
+          <span class='text-16 text-dark'>HOME</span>
+          <i class="material-icons md-primary">home</i>
+        </div></md-list-item>
+
+        <md-list-item ng-click='n.navigateTo(1)'><div layout='row' layout-align='space-between center' flex>
+          <span class='text-16 text-dark'>THE TEAM</span>
+          <i class="material-icons md-primary">account_box</i>
+        </div></md-list-item>
+
+        <md-list-item ng-click='n.navigateTo(2)'><div layout='row' layout-align='space-between center' flex>
+          <span class='text-16 text-dark'>ETC</span>
+          <i class="material-icons md-primary">card_travel</i>
+        </div></md-list-item>
+
+      </md-list>
+    </md-content>
+  </div>
+</md-sidenav>

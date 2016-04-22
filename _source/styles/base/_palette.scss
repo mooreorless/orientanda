@@ -1,0 +1,66 @@
+//primary vars
+$primary-100: #FFCCBC;
+$primary-200: #FFAB91;
+$primary-400: #FF7043;
+$primary-500: #FF5722;
+$primary-700: #E64A19;
+$primary-900: #BF360C;
+
+//primary classes
+.primary-100 { color: $primary-100; }
+.primary-200 { color: $primary-200; }
+.primary-400 { color: $primary-400; }
+.primary-500 { color: $primary-500; }
+.primary-700 { color: $primary-700; }
+.primary-900 { color: $primary-900; }
+.primary-bg-100 { background-color: $primary-100; }
+.primary-bg-200 { background-color: $primary-200; }
+.primary-bg-400 { background-color: $primary-400; }
+.primary-bg-500 { background-color: $primary-500; }
+.primary-bg-700 { background-color: $primary-700; }
+.primary-bg-900 { background-color: $primary-900; }
+
+
+//accent varts
+$accent-100: #B9F6CA;
+$accent-200: #69F0AE;
+$accent-400: #00E676;
+$accent-700: #00C853;
+
+//accent classes
+.accent-100 { color: $accent-100; }
+.accent-200 { color: $accent-200; }
+.accent-400 { color: $accent-400; }
+.accent-700 { color: $accent-700; }
+.accent-bg-100 { background-color: $accent-100; }
+.accent-bg-200 { background-color: $accent-200; }
+.accent-bg-400 { background-color: $accent-400; }
+.accent-bg-700 { background-color: $accent-700; }
+
+//shades
+$shade-fff: #fff;
+$shade-100: #F5F5F5;
+$shade-200: #EEEEEE;
+$shade-400: #BDBDBD;
+$shade-500: #9E9E9E;
+$shade-700: #616161;
+$shade-900: #212121;
+$shade-000: #000;
+
+//primary classes
+.shade-fff { color: $shade-fff; }
+.shade-100 { color: $shade-100; }
+.shade-200 { color: $shade-200; }
+.shade-400 { color: $shade-400; }
+.shade-500 { color: $shade-500; }
+.shade-700 { color: $shade-700; }
+.shade-900 { color: $shade-900; }
+.shade-000 { color: $shade-000; }
+.shade-bg-fff{ background-color: $shade-fff; }
+.shade-bg-100 { background-color: $shade-100; }
+.shade-bg-200 { background-color: $shade-200; }
+.shade-bg-400 { background-color: $shade-400; }
+.shade-bg-500 { background-color: $shade-500; }
+.shade-bg-700 { background-color: $shade-700; }
+.shade-bg-900 { background-color: $shade-900; }
+.shade-bg-000 { background-color: $shade-000; }

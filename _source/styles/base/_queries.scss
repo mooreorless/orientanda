@@ -1,0 +1,29 @@
+//screen sizes
+$smallScreen: 600px;
+$mediumScreen: 960px;
+$largeScreen: 1280px;
+
+//mixins for screen dimension queries
+@mixin sml {
+  @media (max-width: #{$smallScreen - .01px}) {
+    @content;
+  }
+}
+
+@mixin med {
+  @media (min-width: #{$smallScreen}) and (max-width: #{$mediumScreen - .01px}) {
+    @content;
+  }
+}
+
+@mixin lrg {
+  @media (min-width: #{$mediumScreen}) and (max-width: #{$largeScreen - .01px}) {
+    @content;
+  }
+}
+
+@mixin xlrg {
+  @media (min-width: #{$largeScreen}) {
+    @content;
+  }
+}

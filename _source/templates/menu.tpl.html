@@ -1,0 +1,35 @@
+<div class='menu'>
+
+  <!-- the primary menu bar -->
+  <md-toolbar class='primary-bar md-primary md-whiteframe-4dp' layout='row' layout-align='space-between center'>
+    <div layout='row' layout-align='center center'>
+      <md-button class='md-icon-button md-accent' ng-click='n.toggleMenu()' hide-gt-xs>
+        <i class="material-icons md-light">menu</i>
+      </md-button>
+      <h4 class='md-toolbar-tools text-slab'>Orientanda</h4>
+    </div>
+  </md-toolbar>
+
+  <md-divider hide-xs></md-divider>
+
+  <!-- secondary menu bar -->
+  <div class='secondary-bar md-whiteframe-4dp shade-bg-fff' layout='row' layout-align='space-between center' hide-xs>
+    <div layout='row' layout-align='start center' flex>
+      <md-tabs class='md-tab-labels-only' md-selected="n.currentTab" flex>
+        <md-tab><div layout='row' layout-align='space-between center' flex>
+          <span class='text-16 text-dark'>HOME &nbsp; </span>
+          <i class="material-icons md-primary">home</i>
+        </div></md-tab>
+        <md-tab><div layout='row' layout-align='space-between center' flex>
+          <span class='text-16 text-dark'>THE TEAM &nbsp; </span>
+          <i class="material-icons md-primary">account_box</i>
+        </div></md-tab>
+        <md-tab><div layout='row' layout-align='space-between center' flex>
+          <span class='text-16 text-dark'>ETC &nbsp; </span>
+          <i class="material-icons md-primary">card_travel</i>
+        </div></md-tab>
+      </md-tabs>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,17 @@
+<!-- the browser  -->
+<div class='nav' ng-controller='NavCtrl as n'>
+
+  <!-- browser-menu -->
+  <ng-include src='"menu.tpl.html"'></ng-include>
+
+  <!-- browser-side-nav -->
+  <ng-include src='"side-nav.tpl.html"'></ng-include>
+
+  <!-- browser view -->
+  <md-tabs class='tabs' md-selected="n.currentTab">
+    <md-tab ng-repeat="tab in n.tabs">
+      <md-tab-body><ng-include src='tab.content'></ng-include></md-tab-body>
+    </md-tab>
+  </md-tabs>
+
+</div>

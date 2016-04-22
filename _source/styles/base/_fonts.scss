@@ -1,0 +1,45 @@
+//fonts
+@font-face {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../resources/fonts/Roboto.woff2') format('woff2'),
+       url('../resources/fonts/Roboto.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'roboto-slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../resources/fonts/Roboto-Slab.woff2') format('woff2'),
+       url('../resources/fonts/Roboto-Slab.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'roboto-mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../resources/fonts/Roboto-Mono.woff2') format('woff2'),
+       url('../resources/fonts/Roboto-Mono.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'open-sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../resources/fonts/Open-Sans.woff2') format('woff2'),
+       url('../resources/fonts/Open-Sans.woff') format('woff');
+}
+
+//icons
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('resources/fonts/Material-Icons.eot'); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url('resources/fonts/Material-Icons.woff2') format('woff2'),
+       url('resources/fonts/Material-Icons.woff') format('woff'),
+       url('resources/fonts/Material-Icons.ttf') format('truetype');
+}
