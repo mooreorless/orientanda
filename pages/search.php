@@ -8,7 +8,6 @@
 </head>
 
 <body>
-
   <div id ="container">
   	<form>
   		Name: <select id="nameList" name = "namelist" form="nameform">
@@ -29,7 +28,6 @@
   				<option value ="boss">Boss</option>
   				<option value ="123456789">123456789101112</option>
   				</select><br>
-
   	</form>
   </div>
 

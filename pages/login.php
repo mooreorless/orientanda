@@ -6,12 +6,13 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 <body>
-  <h1><?php echo $data; ?></h1>
-  <div class="overlay">
-    <div class="modal">
-      <h2 class="article-head">Login</h2>
-      <hr class="article-title-rule">
-      <a href='<?php echo $loginUrl; ?>' >LOGIN</a>
+  <div class="container">
+    <div class="branding">
+      <div class="brand-group">
+        <p id="logo"></p>
+        <h1>orien<span>tanda</span></h1>
+      </div>
+      <button onclick="window.location.href=<?php echo $loginUrl; ?>" name="Login" id="login-btn">Login</button>
     </div>
-  </div> <!-- login overlay -->
+  </div>
 </body>
