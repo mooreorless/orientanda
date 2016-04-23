@@ -8,7 +8,7 @@
   <title>Orientanda - Search </title>
   <link rel="stylesheet" href="../css/style.css">
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-	
+
 </head>
 	<body>
 	  <div class="container">
@@ -18,7 +18,7 @@
 	        <h1>orien<span>tanda</span></h1>
 	      </div>
 
-			<div class="mdl-layout mdl-js-layout mdl-color--grey-100">
+			<!-- <div class="mdl-layout mdl-js-layout mdl-color--grey-100"> -->
 				<main class="mdl-layout__content">
 				<form action="#">
 					<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">

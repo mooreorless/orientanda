@@ -40,7 +40,7 @@
   font-weight: 300;
 }
 .container .branding .brand-group #logo {
-  background: url("../images/orientanda-logo.svg");
+  background: url("../images/orientanda-logo-teal.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -52,18 +52,18 @@
 .container #login-btn {
   width: 450px;
   border-radius: 4px;
-  border: 2px solid #673AB7;
+  border: 2px solid #009688;
   background: none;
   text-align: center;
   font-size: 2em;
   font-weight: 500;
-  color: #673AB7;
+  color: #009688;
   padding: 15px 32px;
   margin-top: 5%;
   cursor: pointer;
 }
 .container #login-btn:hover {
-  background: #512e90;
+  background: #007d71;
   color: white;
 }
 
