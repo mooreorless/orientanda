@@ -15,7 +15,7 @@
 	        <p id="logo"></p>
 	        <h1>orien<span>tanda</span></h1>
 	      </div>
-	      <button onclick="window.location.href=<?php echo $loginUrl; ?>" name="Login" id="login-btn">Login</button>
+				<input type="search" name="name" value="uniBox" placeholder="Search name, role">
 	    </div>
 	  </div>
 	</body>
