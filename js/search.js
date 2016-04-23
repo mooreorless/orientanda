@@ -1,25 +1,40 @@
+let searchBar = document.getElementById('site-search')
+let results = document.getElementById('results')
 let [users, roles] = [[],[]]
 
 function importData(jsonUsers, jsonRoles) {
   users = JSON.parse(jsonUsers);
-
-  let nameList = document.getElementById('nameList')
-  let surnameList = document.getElementById('surnameList')
+  roles = JSON.parse(jsonRoles);
 
   console.log(users);
-
-  for (let i = 0, l = users.length; i < l; i++) {
-    let user = users[i]
+  console.log(roles);
 
 
+}
 
-    // names = user.name.split(" ")
-    //
-    // option = document.createElement('option')
-    // option.value = name[0]
-    // option.innerHTML = name[0]
-    // nameList.appendChild(option)
-  }
+function search () {
+  let currentSearch = searchBar.value
+  let matches = []
 
-  }
+
+
+  users.forEach((user) => {
+    if(user.name.indexOf(currentSearch) !== -1)
+      matches.push(user)
+  })
+
+  roles.forEach((role) => {
+    if(role.name.indexOf(currentSearch) !== -1)
+      matches.push(role)
+  })
+
+  results.innerHTML = ''
+
+  matches.forEach((match) => {
+    link = document.createElement('a')
+    link.innerHTML = '<nobr>' + match.name + '</nobr> '
+    link.className += 'match'
+    results.appendChild(link)
+  })
+
 }

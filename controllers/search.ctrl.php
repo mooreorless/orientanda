@@ -5,7 +5,18 @@
   curl_setopt($curl, CURLOPT_URL, 'https://my.tanda.co/api/v2/users');
   curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
   curl_setopt($curl, CURLOPT_HTTPHEADER, array('Authorization: bearer ' . $token));
-  $data = curl_exec($curl);
+  $users = curl_exec($curl);
+  curl_close($curl);
+
+  $curl = curl_init();
+  curl_setopt($curl, CURLOPT_URL, 'https://my.tanda.co/api/v2/roles');
+  curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+  curl_setopt($curl, CURLOPT_HTTPHEADER, array(
+      'Authorization: bearer ' . $token,
+      'Content-Type: application/json'
+    )
+  );
+  $roles = curl_exec($curl);
   curl_close($curl);
 
 ?>

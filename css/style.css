@@ -100,3 +100,13 @@ form .line.submit {
   padding: 24px;
   flex: none;
 }
+
+#results {
+  padding: 1rem;
+  text-align: center;
+}
+
+.match {
+  padding: 1rem;
+  color: #673AB7;
+}
