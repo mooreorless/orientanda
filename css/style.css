@@ -1,76 +1,75 @@
-/*
-Error: Undefined variable: "$light".
-        on line 17 of /Users/elliottmoore/Documents/Code/orientanda/stylesheets/partials/_loginModal.scss
-        from line 9 of /Users/elliottmoore/Documents/Code/orientanda/stylesheets/style.scss
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-Backtrace:
-/Users/elliottmoore/Documents/Code/orientanda/stylesheets/partials/_loginModal.scss:17
-/Users/elliottmoore/Documents/Code/orientanda/stylesheets/style.scss:9
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `map'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `map'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:326:in `block (2 levels) in visit_import'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:326:in `map'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `block in with_import'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `with_import'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:423:in `run'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
-/Users/elliottmoore/Downloads/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$light\".\A         on line 17 of /Users/elliottmoore/Documents/Code/orientanda/stylesheets/partials/_loginModal.scss\A         from line 9 of /Users/elliottmoore/Documents/Code/orientanda/stylesheets/style.scss"; }
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay .modal {
+  width: 500px;
+  position: relative;
+  background: #FFFFFF;
+  padding: 30px;
+  border-radius: 2px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+}
+.overlay .modal .btn-close {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 2em;
+  line-height: 30px;
+  text-align: center;
+  transition: scale 100ms ease-in-out;
+}
+.overlay .modal .btn-close:hover {
+  transform: scale(1.2);
+}
+.overlay .modal .login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.overlay .modal .login-form #name, .overlay .modal .login-form #password {
+  display: block;
+  height: 40px;
+  border: none;
+  font-size: .9em;
+  padding: 0 20px;
+  border-bottom: 2px solid #e6e6e6;
+  transition: border .25s linear,color;
+}
+.overlay .modal .login-form #name:focus, .overlay .modal .login-form #password:focus {
+  border-bottom: 2px solid #673AB7;
+}
+.overlay .modal .login-form #login {
+  display: block;
+  height: 45px;
+  border: none;
+  border-radius: 2px;
+  padding: 15px 32px;
+  background: #47B8E0;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1em;
+  color: #fff;
+}
+.overlay .modal .login-form #login:hover {
+  background: #512e90;
+  color: #fff;
+}
