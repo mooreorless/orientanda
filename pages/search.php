@@ -10,16 +10,10 @@
 	<form>
 		Name: <select id="namelist" name = "namelist" form="nameform">
 				<option value ="-">-</option>
-				<option value ="bob">Bob</option>
-				<option value ="mark">Mark</option>
+				<option value ="bob jackson">Bob Jackson</option>
+				<option value ="mark svensson">Mark Svensson</option>
 				<option value ="123456789">123456789101112</option>
 			</select><br>
-		Surname: <select id="surnamelist" name = "surnamelist" form="surnameform">
-				<option value ="-          ">-</option>
-				<option value ="Johnson">Johnson</option>
-				<option value ="Smith">Smith</option>
-				<option value ="123456789">123456789101112</option>
-				</select><br>
 		Role: <select id="rolelist" name = "rolelist" form="roleform">
 				<option value ="-">-</option>
 				<option value ="sales manager">Sales Manager</option>
