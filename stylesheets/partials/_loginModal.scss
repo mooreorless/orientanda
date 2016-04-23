@@ -13,7 +13,6 @@
   .branding {
 
     .brand-group {
-
       display: flex;
       justify-content: center;
       align-items: center;
@@ -61,6 +60,10 @@
     padding: 15px 32px;
     margin-top: 5%;
     cursor: pointer;
+
+    &:focus {
+      outline: 0;
+    }
 
     &:hover {
       background: darken(rgb(0, 150, 136), 5);
