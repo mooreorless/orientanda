@@ -37,7 +37,7 @@
       }
 
       #logo {
-        background: url('../images/orientanda-logo.svg');
+        background: url('../images/orientanda-logo-teal.svg');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center center;
@@ -52,18 +52,18 @@
   #login-btn {
     width: 450px;
     border-radius: 4px;
-    border: 2px solid #673AB7;
+    border: 2px solid rgb(0, 150, 136);
     background: none;
     text-align: center;
     font-size: 2em;
     font-weight: 500;
-    color: #673AB7;
+    color: rgb(0, 150, 136);
     padding: 15px 32px;
     margin-top: 5%;
     cursor: pointer;
 
     &:hover {
-      background: darken(#673AB7, 10);
+      background: darken(rgb(0, 150, 136), 5);
       color: white;
     }
   }

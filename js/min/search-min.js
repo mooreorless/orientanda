@@ -16,27 +16,35 @@ function search () {
   let currentSearch = searchBar.value
   let matches = []
 
-
-
   users.forEach((user) => {
     if(user.name.indexOf(currentSearch) !== -1)
       matches.push(user)
   })
-
   roles.forEach((role) => {
     if(role.name.indexOf(currentSearch) !== -1)
       matches.push(role)
   })
 
   results.innerHTML = ''
-
   matches.forEach((match) => {
     link = document.createElement('a')
-    link.innerHTML = '<nobr>' + match.name + '</nobr> '
+    link.innerHTML = ' <nobr> ' + match.name + '</nobr> '
     link.className += 'match'
+    link.onclick = () => showUser(match)
     results.appendChild(link)
   })
 
+}
+
+
+function showUser(user) {
+  let form = document.createElement('form')
+
+  for (let key in user) {
+    form.append(key, user[key]);
+  }
+
+  form.action = 'employee.php'
 }
 
 

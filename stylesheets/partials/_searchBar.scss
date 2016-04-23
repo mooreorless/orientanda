@@ -9,4 +9,8 @@
 
 #results { padding: 1rem; text-align: center; }
 
-.match { padding: 1rem; color: #673AB7}
+.match { display: inline-block; padding: 1rem .5rem; color: rgb(0, 150, 136)}
+
+.match:hover {
+  text-decoration: underline;
+}
