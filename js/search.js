@@ -12,11 +12,11 @@ function search () {
   let matches = []
 
   users.forEach((user) => {
-    if(user.name.indexOf(currentSearch) !== -1)
+    if(user.name.toLowerCase().indexOf(currentSearch) !== -1)
       matches.push(user)
   })
   roles.forEach((role) => {
-    if(role.name.indexOf(currentSearch) !== -1)
+    if(role.name.toLowerCase().indexOf(currentSearch) !== -1)
       matches.push(role)
   })
 

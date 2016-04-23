@@ -8,6 +8,13 @@
 
     <link rel="stylesheet" href="../css/style.css">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <style>
+      #profile {width: 100px; height: 100px; border-radius: 50%;}
+      a {text-decoration: none;}
+      #employee { padding: 5%; border-top: 1px solid rgba(0, 0, 0, .3); text-align: center;}
+      #employee > * { display: inline-block; padding: .5rem; }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -23,5 +30,7 @@
     <script type="text/javascript">
       importData('<?php echo $user;?>')
     </script>
+
+
   </body>
 </html>
