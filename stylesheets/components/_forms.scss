@@ -1,0 +1,89 @@
+//Form styles
+
+form {
+  margin-bottom: 20px;
+}
+
+button {
+  background: #47B8E0;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 15px;
+  @include border-radius(2px);
+  font-size: 1em;
+  color: $light;
+
+  &:hover {
+    background: darken($accent, 10);
+    color: $light;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+input {
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  padding: 5px 10px;
+  @include border-radius(2px);
+  margin-bottom: 10px;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+input[type="search"] {
+  &:focus {
+    outline: 0;
+  }
+}
+
+textarea {
+  -webkit-appearance: none;
+  &:focus {
+    outline: 0;
+  }
+}
+
+select {
+  cursor: pointer;
+  &:focus {
+  outline: 0;
+  }
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+}
+
+//Validation
+input.required {
+  border-color: orange !important;
+  color: orange !important;
+}
+
+// Custom clear search button
+
+/*
+::-webkit-search-cancel-button {
+
+  -webkit-appearance: none;
+
+  height: 10px;
+  width: 10px;
+  margin-right: -6px;
+  background: red;
+
+  &:after {
+    content: ' ';
+    display: block;
+  }
+} */
