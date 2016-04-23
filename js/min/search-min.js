@@ -3,13 +3,8 @@ let results = document.getElementById('results')
 let [users, roles] = [[],[]]
 
 function importData(jsonUsers, jsonRoles) {
-  users = JSON.parse(jsonUsers);
-  roles = JSON.parse(jsonRoles);
-
-  console.log(users);
-  console.log(roles);
-
-
+  users = JSON.parse(jsonUsers)
+  roles = JSON.parse(jsonRoles)
 }
 
 function search () {
@@ -41,10 +36,14 @@ function showUser(user) {
   let form = document.createElement('form')
 
   for (let key in user) {
-    form.append(key, user[key]);
+    let input = document.createElement('input')
+    input.name = key
+    input.value = user[key]
+    form.appendChild(input);
   }
 
   form.action = 'employee.php'
+  form.submit()
 }
 
 
