@@ -29,6 +29,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/orientanda-logo-dan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1266,
+		"inputAbbreviatedPath": "\/images\/orientanda-logo-dan.png",
+		"outputAbbreviatedPath": "\/images\/orientanda-logo-dan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/orientanda-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
