@@ -6,6 +6,7 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 <body>
+  <h1><?php echo $data; ?></h1>
   <div class="overlay">
     <div class="modal">
       <h2 class="article-head">Login</h2>
